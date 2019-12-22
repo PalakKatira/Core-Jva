@@ -26,7 +26,10 @@ public class ArraysDemo {
 		
 		//way 2
 		//int myArray1[]=new int[40];
-		//System.out.println(myArray);
+		myArray1[0]=1;
+		myArray1[1]=2;
+		myArray1[2]=3;
+		System.out.println(myArray1);
 		
 		//way 3
 		int myArray3[]=new int[] {1,2,3,4,5,6};//do not mention the array size in this case or else CE
